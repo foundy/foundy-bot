@@ -103,14 +103,8 @@ def _clean_html(text: str) -> str:
     return text
 
 
-def _summarize_with_openai(title: str, description: str) -> Optional[str]:
+def _summarize_with_openai(title: str, description: str, client: OpenAI) -> Optional[str]:
     """OpenAI API를 사용하여 뉴스를 200자 이내로 요약합니다."""
-    api_key = os.environ.get("OPENAI_API_KEY")
-    if not api_key:
-        logger.warning("OPENAI_API_KEY가 설정되지 않았습니다. 요약을 건너뜁니다.")
-        return None
-
-    client = OpenAI(api_key=api_key)
     prompt = (
         f"다음 뉴스를 한국어로 200자 이내로 핵심만 요약해주세요. "
         f"마침표로 끝내주세요.\n\n"
@@ -208,10 +202,18 @@ def collect_news(max_items: int = 10) -> list[NewsItem]:
     # AI 관련 → 일반 순으로 정렬 (priority 높은 것 먼저)
     unique_items.sort(key=lambda x: x.priority, reverse=True)
 
+    # OpenAI 클라이언트를 한 번만 생성 (API 키 없으면 fallback 사용)
+    openai_client: Optional[OpenAI] = None
+    api_key = os.environ.get("OPENAI_API_KEY")
+    if api_key:
+        openai_client = OpenAI(api_key=api_key)
+    else:
+        logger.warning("OPENAI_API_KEY가 설정되지 않았습니다. RSS description을 요약으로 사용합니다.")
+
     # 요약 생성
     selected = unique_items[:max_items]
     for item in selected:
-        summary = _summarize_with_openai(item.title, item.raw_description)
+        summary = _summarize_with_openai(item.title, item.raw_description, openai_client) if openai_client else None
         if summary:
             item.summary = summary
         else:
