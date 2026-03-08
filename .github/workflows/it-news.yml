@@ -1,0 +1,46 @@
+name: IT News Slack Notification
+
+on:
+  schedule:
+    # 매일 오전 9시 KST (= 00:00 UTC)
+    - cron: "0 0 * * *"
+  workflow_dispatch: # 수동 실행 가능
+
+permissions:
+  contents: write # news_history.md 커밋을 위해 필요
+
+jobs:
+  send-it-news:
+    name: Collect and Send IT/AI News
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run news bot
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python main.py
+
+      - name: Commit updated news history
+        run: |
+          git config user.name "foundy-bot[bot]"
+          git config user.email "foundy-bot[bot]@users.noreply.github.com"
+          git add data/news_history.md
+          if git diff --cached --quiet; then
+            echo "히스토리 변경사항 없음"
+          else
+            git commit -m "chore: update news history [skip ci]"
+            git push
+          fi
