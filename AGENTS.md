@@ -36,7 +36,7 @@ requirements.txt   # Python 의존성
 | 이름 | 설명 | 필수 |
 |------|------|------|
 | `SLACK_WEBHOOK_URL` | Slack Incoming Webhook URL | ✅ |
-| `OPENAI_API_KEY` | OpenAI API 키 (뉴스 요약) | ✅ |
+| `OPENAI_API_KEY` | OpenAI API 키 (뉴스 요약, 미설정 시 요약을 건너뛰고 RSS description을 그대로 사용) | ⚪ |
 
 ## 작업 시 주의사항
 
