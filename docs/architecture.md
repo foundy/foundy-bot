@@ -32,7 +32,6 @@ RSS 피드를 통해 IT/AI 뉴스를 수집합니다.
 1. AI 전용 소스 (가중치 높음)
    - MIT Technology Review - AI
    - VentureBeat - AI
-   - The Gradient (AI 연구)
 2. 일반 IT 소스 (가중치 낮음)
    - Hacker News (상위 30개)
    - TechCrunch
