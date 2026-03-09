@@ -120,7 +120,10 @@ def _summarize_with_openai(title: str, description: str) -> Optional[str]:
     try:
         response = client.chat.completions.create(
             model="gpt-4o-mini",
-            messages=[{"role": "user", "content": prompt}],
+            messages=[
+                {"role": "system", "content": "당신은 뉴스 요약 전문가입니다. 반드시 한국어로만 답변하세요."},
+                {"role": "user", "content": prompt},
+            ],
             max_tokens=150,
             temperature=0.3,
         )
