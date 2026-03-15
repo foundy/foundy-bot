@@ -1,5 +1,16 @@
 # 뉴스 히스토리
 
+## 2026-03-15
+
+- [US Army announces contract with Anduril worth up to $20B](https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/) — The Army described this as a single enterprise contract consolidating more than 120 separate "procurement actions."
+- [Meta reportedly considering layoffs that could affect 20% of the company](https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/) — These layoffs could help Facebook's parent company offset its aggressive spending on AI infrastructure, as well as AI-related acquisitions and hiring.
+- [How to use the new ChatGPT app integrations, including DoorDash, Spotify, Uber, and others](https://techcrunch.com/2026/03/14/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/) — Learn how to use Spotify, Canva, Figma, Expedia, and other apps directly in ChatGPT.
+- [The MacBook Neo is ‘the most repairable MacBook’ in years, according to iFixit](https://techcrunch.com/2026/03/14/the-macbook-neo-is-the-most-repairable-macbook-in-years-according-to-ifixit/) — Apple’s new MacBook Neo isn’t just the most affordable MacBook — it’s also the company's most repairable laptop in “about fourteen years."
+- [Trump administration is allegedly collecting $10 billion on the TikTok deal](https://www.theverge.com/policy/895039/trump-10-billion-tiktok) — In September, Donald Trump claimed that "the United States is getting a tremendous fee" for brokering the TikTok deal. Now sources tell the Wall Street Journal and the New York Times that fee is expe…
+- [Meta is reportedly laying off up to 20 percent of its staff](https://www.theverge.com/business/895026/meta-laying-off-20-percent) — According to Reuters, Meta is looking to offset spending on AI and data centers with a massive round of layoffs. Sources familiar with the matter say the company could lay off as much as 20 percent o…
+- [MacBook Air M5 review: a small update for the ‘just right’ Mac](https://www.theverge.com/tech/894866/apple-macbook-air-m5-15-2026-laptop-review) — Not much has changed in the new MacBook Air for 2026: It now has the M5 chip, Wi-Fi 7, and faster storage starting at 512GB instead of 256GB. It's just as outstanding a computer as last year's model,…
+- [Staff complain that xAI is flailing because of constant upheaval](https://arstechnica.com/ai/2026/03/staff-complain-that-xai-is-flailing-because-of-constant-upheaval/) — Staff complain that the constant upheaval is destroying morale.
+
 ## 2026-03-14
 
 - [NanoClaw and Docker partner to make sandboxes the safest way for enterprises to deploy AI agents](https://venturebeat.com/infrastructure/nanoclaw-and-docker-partner-to-make-sandboxes-the-safest-way-for-enterprises) — NanoClaw, the open-source AI agent platform created by Gavriel Cohen, is partnering with the containerized development platform Docker to let teams run agents inside Docker Sandboxes, a move aimed at…
