@@ -1,5 +1,16 @@
 # 뉴스 히스토리
 
+## 2026-03-16
+
+- [Fixing AI failure: Three changes enterprises should make now](https://venturebeat.com/technology/fixing-ai-failure-three-changes-enterprises-should-make-now) — Recent reports about AI project failure rates have raised uncomfortable questions for organizations investing heavily in AI. Much of the discussion has focused on technical factors like model accurac…
+- [Google, Accel India accelerator choses 5 startups and none are ‘AI wrappers’](https://techcrunch.com/2026/03/15/google-and-accel-cut-through-wrappers-in-4000-ai-startup-pitches-to-pick-five-tied-to-india/) — Google and Accel say about 70% of AI startup pitches tied to India were "wrappers" as they reviewed more than 4,000 applications for their Atoms cohort.
+- [ByteDance reportedly pauses global launch of its Seedance 2.0 video generator](https://techcrunch.com/2026/03/15/bytedance-reportedly-pauses-global-launch-of-its-seedance-2-0-video-generator/) — The company is reportedly delaying the launch as its engineers and lawyers work to avert further legal issues.
+- [Wiz investor unpacks Google’s $32B acquisition](https://techcrunch.com/2026/03/15/wiz-investor-unpacks-googles-32b-acquisition/) — Shardul Shah of Index Ventures walks us through Google's biggest acquisition ever.
+- [TechCrunch Mobility: Travis Kalanick’s return proves it really is 2016 again](https://techcrunch.com/2026/03/15/techcrunch-mobility-travis-kalanicks-return-proves-it-really-is-2016-again/) — Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation.
+- [AI Czar David Sacks wants Trump to ‘get out’ of Iran](https://www.theverge.com/policy/895059/trump-ai-czar-out-of-iran) — David Sacks, the White House's AI and crypto czar, has warned that a continued war in Iran could be catastrophic. On the All In podcast, Sacks said that "we should try to find the off-ramp." He expre…
+- [AI companies want to harvest improv actors’ skills to train AI on human emotion](https://www.theverge.com/ai-artificial-intelligence/893931/ai-companies-handshake-improv-actors-training-data) — If you've got strong creative instincts, the ability to authentically portray emotion, and are capable of staying true to a character's voice throughout a scene, there's a job listing calling for you…
+- [NASA officials sidestepped questions on Artemis II risks—there's a reason why](https://arstechnica.com/space/2026/03/flying-to-the-moon-for-the-first-time-in-54-years-is-risky-but-how-risky/) — "This ought to make for some good reading," NASA's mission management team chair said.
+
 ## 2026-03-15
 
 - [US Army announces contract with Anduril worth up to $20B](https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/) — The Army described this as a single enterprise contract consolidating more than 120 separate "procurement actions."
